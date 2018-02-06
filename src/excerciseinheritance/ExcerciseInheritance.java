@@ -22,6 +22,7 @@ public class ExcerciseInheritance {
         msg.lähetä();
         email.setSisältö("to:toni.laitinen@hamk.fi\nfrom:kimmo.koivusalo@student.hamk.fi\nTOPIC: Java janottaa.\nMSG: Nyt maistuisi kyllä pari kylmää olutta.");
         email.lähetä();
+        
     }
     
 }
