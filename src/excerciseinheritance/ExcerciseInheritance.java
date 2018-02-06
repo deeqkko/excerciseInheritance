@@ -16,6 +16,9 @@ public class ExcerciseInheritance {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Viesti msg = new Viesti();
+        msg.setSisältö("Notta terve");
+        msg.lähetä();
     }
     
 }

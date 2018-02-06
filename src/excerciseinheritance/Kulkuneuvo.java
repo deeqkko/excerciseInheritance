@@ -9,6 +9,6 @@ package excerciseinheritance;
  *
  * @author hamkTeam4/deeqkko
  */
-public class Kulkuneuvo extends Auto {
+public class Kulkuneuvo {
     
 }
