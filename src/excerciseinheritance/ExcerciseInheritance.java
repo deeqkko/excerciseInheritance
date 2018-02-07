@@ -18,6 +18,7 @@ public class ExcerciseInheritance {
         // TODO code application logic here
         Viesti msg = new Viesti();
         Atomi hydrogen = new Atomi();
+        Kuolemantähti DeathStar = new Kuolemantähti();
                 
         Sähköposti email = new Sähköposti();
         msg.setSisältö("Notta terve");
@@ -28,7 +29,7 @@ public class ExcerciseInheritance {
         //hydrogen.setProtonit(1);
         hydrogen.setVety();
         hydrogen.getVety();
-        
+        DeathStar.LaukaiseLaser();
     }
     
 }
