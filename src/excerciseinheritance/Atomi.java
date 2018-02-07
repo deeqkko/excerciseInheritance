@@ -9,10 +9,10 @@ package excerciseinheritance;
  *
  * @author hamkTeam4/deeqkko
  */
-public class Atomi extends Vety {
+public class Atomi {
     
-    private int protonit;
-    private int elektronit;
+    protected int protonit;
+    protected int elektronit;
     
     
     
@@ -31,8 +31,22 @@ public class Atomi extends Vety {
     public void setElektronit(int elektronit){
         this.elektronit = elektronit;
     }
+
+    public void setAtomConfig(int protonit, int elektronit){
+        setProtonit(protonit);
+        setElektronit(elektronit);
+    }
+    
+    public void getAtomConfig(){
+        System.out.println(protonit + " " + elektronit);
+    }
+    }
+    
+        
+        
     
     
     
-}
+    
+
 

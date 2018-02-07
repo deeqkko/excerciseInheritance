@@ -9,18 +9,14 @@ package excerciseinheritance;
  *
  * @author hamkTeam4/deeqkko
  */
-public class Vety {
+public class Vety extends Atomi {
 
-    private int protonit;
-    private int elektronit;
+    public void setVety(){
+        super.setProtonit(1);
+        super.setElektronit(1);
+    }
 
-    public void setVety() {
-       protonit = 1;
-       elektronit = 1;
+   
     }
-    
-    public void getVety(){
-        System.out.println("Vety[Protonit:" + protonit + " Elektronit: " + elektronit + "]");
-    }
-}
-      
+
+
