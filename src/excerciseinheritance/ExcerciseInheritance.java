@@ -17,7 +17,7 @@ public class ExcerciseInheritance {
     public static void main(String[] args) {
         // TODO code application logic here
         Viesti msg = new Viesti();
-        Sähköposti email = new Sähköposti();
+        Viesti email = new Sähköposti();
         msg.setSisältö("Notta terve");
         msg.lähetä();
         email.setSisältö("to:toni.laitinen@hamk.fi\nfrom:kimmo.koivusalo@student.hamk.fi\nTOPIC: Java janottaa.\nMSG: Nyt maistuisi kyllä pari kylmää olutta.");
@@ -28,11 +28,18 @@ public class ExcerciseInheritance {
         helium.getAtomConfig();
         
         Vety hydrogen = new Vety();
-        hydrogen.setVety();
+        hydrogen.setAtomHydrogen();
         hydrogen.getAtomConfig();
-  
-        Kuolemantähti DeathStar = new Kuolemantähti();
+        
+        Avaruusasema DeathStar = new Kuolemantähti();
         DeathStar.LaukaiseLaser();
+        
+        Astrodroidi D2 = new R2();
+        System.out.println(D2.HaeÄäni());
+  
+        
+        
+        
     }
     
 }

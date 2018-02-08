@@ -9,15 +9,7 @@ package excerciseinheritance;
  *
  * @author hamkTeam4/deeqkko
  */
-public class Vety extends Atomi {
-
+public class Protoni {
     
-    public void setAtomHydrogen(){
-        super.setProtonit(1);
-        super.setElektronit(1);
-    }
-
-   
-    }
-
-
+    //Periytyy automaattisesti Object-luokasta
+}

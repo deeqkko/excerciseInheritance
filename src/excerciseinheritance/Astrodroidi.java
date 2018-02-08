@@ -9,15 +9,9 @@ package excerciseinheritance;
  *
  * @author hamkTeam4/deeqkko
  */
-public class Vety extends Atomi {
-
+public abstract class Astrodroidi {
     
-    public void setAtomHydrogen(){
-        super.setProtonit(1);
-        super.setElektronit(1);
+    public String HaeÄäni(){
+        return "Beep beep";
     }
-
-   
-    }
-
-
+}

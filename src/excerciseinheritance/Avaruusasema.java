@@ -10,9 +10,6 @@ package excerciseinheritance;
  * @author hamkTeam4/deeqkko
  */
 public abstract class Avaruusasema {
-
-    public Avaruusasema() {
-    }
     
-    public abstract void LaukaiseLaser();
+    public abstract void LaukaiseLaser(); 
 }

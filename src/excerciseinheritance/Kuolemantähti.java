@@ -14,5 +14,4 @@ public class Kuolemantähti extends Avaruusasema {
     public void LaukaiseLaser(){
         System.out.println("Pew Pew");
     }
-    
 }
