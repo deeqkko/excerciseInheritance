@@ -11,12 +11,14 @@ package excerciseinheritance;
  */
 public class Vety extends Atomi {
 
-    
-    public void setAtomHydrogen(){
-        super.setProtonit(1);
-        super.setElektronit(1);
+    public void setAtomConfig(){
+        super.setAtomConfig(1,1);
+       
     }
-
+    
+    public void setAtomMsg(){
+        super.setAtomMsg("KABOOOOM!");
+    }
    
     }
 

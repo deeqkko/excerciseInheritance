@@ -24,13 +24,18 @@ public class ExcerciseInheritance {
         email.lähetä();
         
         Atomi helium = new Atomi();
-        helium.setAtomConfig(2, 2);
-        helium.getAtomConfig();
-        
         Vety hydrogen = new Vety();
-        hydrogen.setAtomHydrogen();
+        helium.setAtomConfig(2,2);
+        helium.setAtomMsg("Ääni falsetissa");
+        helium.getAtomConfig();
+        System.out.println(helium.getAtomMsg());
+        hydrogen.setAtomConfig();
+        hydrogen.setAtomMsg();
         hydrogen.getAtomConfig();
+        System.out.println(hydrogen.getAtomMsg());
         
+        
+       
         Avaruusasema DeathStar = new Kuolemantähti();
         DeathStar.LaukaiseLaser();
         

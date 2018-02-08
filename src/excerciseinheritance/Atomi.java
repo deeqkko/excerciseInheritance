@@ -11,10 +11,20 @@ package excerciseinheritance;
  */
 public class Atomi {
     
-    protected int protonit;
-    protected int elektronit;
-    
-    
+    private int protonit;
+    private int elektronit;
+    private String atomMsg;
+
+    public String getAtomMsg() {
+        return atomMsg;
+    }
+
+    public void setAtomMsg(String atomMsg) {
+        this.atomMsg = atomMsg;
+    }
+
+    public Atomi() {
+    }
     
     public int getProtonit(){
         return protonit;
@@ -40,6 +50,7 @@ public class Atomi {
     public void getAtomConfig(){
         System.out.println(protonit + " " + elektronit);
     }
+    
     }
     
         
