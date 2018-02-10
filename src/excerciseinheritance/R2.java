@@ -11,7 +11,11 @@ package excerciseinheritance;
  */
 public class R2 extends Astrodroidi{
     
+    @Override
     public String HaeÄäni(){
-        return "Beep bop";
+       return "Beep bop";
     }
+    
+    
 }
+

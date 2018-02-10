@@ -40,8 +40,8 @@ public class ExcerciseInheritance {
         DeathStar.LaukaiseLaser();
         
         Astrodroidi D2 = new R2();
-        System.out.println(D2.HaeÄäni());
-  
+        D2.Ääntele();
+        
         
         
         

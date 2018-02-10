@@ -11,7 +11,13 @@ package excerciseinheritance;
  */
 public abstract class Astrodroidi {
     
+    
+    
     public String HaeÄäni(){
         return "Beep beep";
+    }
+    
+    public void Ääntele(){
+        System.out.println(HaeÄäni());
     }
 }
